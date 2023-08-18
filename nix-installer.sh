@@ -9,6 +9,7 @@ if [[ -f /nix/nix-installer ]]
 then
     echo "Nix is already installed, to reinstall type \"sudo /nix/nix-installer uninstall\" then run this"
     exit 1
+fi
 
 if [[ -d /nix ]]
 then
