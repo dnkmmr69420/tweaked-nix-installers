@@ -40,3 +40,8 @@ tee /etc/profile.d/nix-xdg-data-variables.sh <<EOF
 export XDG_DATA_DIRS="\$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:\$XDG_DATA_DIRS"
 export KDEDIRS="\$HOME/.nix-profile:/nix/var/nix/profiles/default:\$KDEDIRS"
 EOF
+
+echo "Finnished adding XDG_DATA_DIR locations"
+
+curl -o /nix/uninstall-nix https://raw.githubusercontent.com/dnkmmr69420/tweaked-nix-installers/main/nix-uninstaller.sh
+chmod a+x /nix/uninstall-nix
