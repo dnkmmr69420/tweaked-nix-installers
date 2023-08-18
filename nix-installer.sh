@@ -5,12 +5,12 @@ if (( $EUID != 0 )); then
     exit 1
 fi
 
-if [[ ! -f /nix/nix-installer ]]
+if [[ -f /nix/nix-installer ]]
 then
     echo "Nix is already installed, to reinstall type \"sudo /nix/nix-installer uninstall\" then run this"
     exit 1
 
-if [[ ! -d /nix ]]
+if [[ -d /nix ]]
 then
     echo "The nix directory already exists, uninstall nix to continue"
     exit 1
