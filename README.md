@@ -1,5 +1,5 @@
 # tweaked-nix-installers
-Determinate systems nix installers but tweaked a little
+Determinate systems nix installers but tweaked a little. Uses [Determinate Systems Nix Installer](https://github.com/DeterminateSystems/nix-installer)
 
 ## Installation
 
