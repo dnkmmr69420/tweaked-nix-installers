@@ -1,4 +1,4 @@
-#1/usr/bin/env bash
+#!/usr/bin/env bash
 
 if (( $EUID != 0 )); then
     echo "This script must be ran as root"
